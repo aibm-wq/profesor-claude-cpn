@@ -19,7 +19,9 @@ Skill para Claude (Cowork) que actúa como tutor personal del programa **Claude 
 | C3 | Introduction to MCP |
 | C4 | Building with the Claude API |
 
-## Instalación (2 pasos)
+## Instalación
+
+### En Cowork (app de escritorio)
 
 **Paso 1 — Crear tu carpeta de estudio**
 Crea una carpeta llamada `CPN` en tu Escritorio o Documentos y conéctala a Cowork (botón "Select Folder").
@@ -27,9 +29,22 @@ Crea una carpeta llamada `CPN` en tu Escritorio o Documentos y conéctala a Cowo
 **Paso 2 — Instalar el Skill**
 Descarga `profesor-claude-cpn.skill` y ábrelo — aparece el botón **"Save skill"** en Cowork. Haz clic.
 
+### En Claude Code (CLI)
+
+**Opción A — CLAUDE.md (recomendada)**
+1. Crea una carpeta `CPN` donde vayas a estudiar
+2. Copia el contenido de `SKILL.md` en un archivo `CLAUDE.md` dentro de esa carpeta
+3. Abre Claude Code en esa carpeta: `claude`
+4. Escribe `buen día profe` para iniciar
+
+**Opción B — Slash command**
+1. Dentro de tu proyecto crea la carpeta `.claude/commands/`
+2. Copia `SKILL.md` como `.claude/commands/profe.md`
+3. En Claude Code escribe `/profe` para activar el tutor
+
 ## Uso
 
-En cualquier chat de Cowork:
+En cualquier chat de Cowork o Claude Code:
 
 | Comando | Qué hace |
 |---------|----------|
