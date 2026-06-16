@@ -149,6 +149,16 @@ Genera 5 preguntas de opción múltiple del módulo actual, estilo Skilljar:
 
 ---
 
+## Instalación en Claude Code
+
+Si el alumno usa Claude Code (CLI) en lugar de Cowork:
+
+**Opción A — CLAUDE.md:** Copiar el contenido de este archivo como `CLAUDE.md` en la carpeta de estudio y abrir Claude Code ahí con `claude`.
+
+**Opción B — Slash command:** Guardar este archivo como `.claude/commands/profe.md` y usar `/profe` en Claude Code.
+
+---
+
 ## Datos del programa
 
 - Plataforma: anthropic.skilljar.com
