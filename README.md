@@ -12,12 +12,12 @@ Skill para Claude (Cowork) que actúa como tutor personal del programa **Claude 
 
 ## Cursos incluidos
 
-| # | Curso | Sesión grupal |
-|---|-------|--------------|
-| C1 | Claude Code in Action | Sáb 21 JUN |
-| C2 | Introduction to Agent Skills | Sáb 21 JUN |
-| C3 | Introduction to MCP | Sáb 28 JUN |
-| C4 | Building with the Claude API | Sáb 5 JUL |
+| # | Curso |
+|---|-------|
+| C1 | Claude Code in Action |
+| C2 | Introduction to Agent Skills |
+| C3 | Introduction to MCP |
+| C4 | Building with the Claude API |
 
 ## Instalación (2 pasos)
 
